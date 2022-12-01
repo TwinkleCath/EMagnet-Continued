@@ -6,11 +6,12 @@
   "name": "E Magnet",
   "description": "A mod that adds magnets that work on energy",
   "authors": [
-    "TwinkleCath"
+    "TwinkleCath",
+    "Rangetuur"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://discord.gg/VqtXBknHM8",
+    "sources": "https://github.com/Cathienna/EMagnet-Continued"
   },
 
   "license": "CC0-1.0",

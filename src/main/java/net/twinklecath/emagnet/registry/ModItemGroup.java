@@ -8,5 +8,5 @@ import net.twinklecath.emagnet.EMagnet;
 
 public class ModItemGroup {
     public static final ItemGroup EMAGNET = FabricItemGroupBuilder.build(
-            new Identifier(EMagnet.MOD_ID, "havenalchemy_tab"), () -> new ItemStack(ModItems.MAGNET_JAR));
+            new Identifier(EMagnet.MOD_ID, "emagnet_tab"), () -> new ItemStack(ModItems.MAGNET_JAR));
 }

@@ -55,7 +55,7 @@ public class MagnetItemBase extends TrinketItem implements SimpleEnergyItem {
         attractItemsToPlayer(entity, stack);
     }
 
-    /*@Override
+    @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         super.inventoryTick(stack, world, entity, slot, selected);
         var optional = TrinketsApi.getTrinketComponent((PlayerEntity) entity);
@@ -69,12 +69,13 @@ public class MagnetItemBase extends TrinketItem implements SimpleEnergyItem {
             attractItemsToPlayer(entity, stack);
 
 
-        //for (ItemStack s : entity.getHandItems()) {
+        for (ItemStack s : entity.getHandItems()) {
             //EMagnetConfig config = AutoConfig.getConfigHolder(EMagnetConfig.class).getConfig();
-            //if (s.getItem() instanceof MagnetItem || config.magnets.magnet_always_works) {
-            //}
-        //}
-    }*/
+            if (s.getItem() instanceof MagnetItemBase) {
+            attractItemsToPlayer(entity, stack);
+            }
+        }
+    }
 
     private void attractItemsToPlayer(Entity entity, ItemStack stack) {
         double x = entity.getX();
