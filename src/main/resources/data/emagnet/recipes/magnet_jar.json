@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "# #",
+        "OOO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass"
+        },
+        "O": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "C": {
+            "item": "minecraft:copper_ingot"
+        }
+
+    },
+    "result": {
+        "item": "emagnet:magnet_jar",
+        "count": 1
+    }
+}

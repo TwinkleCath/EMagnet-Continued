@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "emagnet:block/magnet_jar" }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "emagnet",
+  "version": "${version}",
+
+  "name": "E Magnet",
+  "description": "A mod that adds magnets that work on energy",
+  "authors": [
+    "TwinkleCath"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/emagnet/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.twinklecath.emagnet.EMagnet"
+    ],
+    "client": [
+      "net.twinklecath.emagnet.EMagnetClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
